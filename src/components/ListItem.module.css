@@ -1,0 +1,26 @@
+.listItem {
+    display: flex;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.listItem:last-child {
+    border-bottom: 0;
+}
+
+.id {
+    flex: 0 1 100px;
+    border-right: 1px solid #f2f2f2;
+    line-height: 32px;
+    padding: 10px 15px;
+}
+
+.title {
+    flex-grow: 1;
+    border-right: 1px solid #f2f2f2;
+    line-height: 32px;
+    padding: 10px 15px;
+}
+
+.buttons {
+    flex: 0 1 100px;
+}

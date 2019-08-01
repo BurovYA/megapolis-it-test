@@ -1,0 +1,11 @@
+.topBar {
+    display: flex;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.addButton {
+    flex-grow: 0;
+}

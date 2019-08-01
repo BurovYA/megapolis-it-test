@@ -1,0 +1,26 @@
+.app {
+    height: 100%;
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBar {
+    flex-grow: 0;
+}
+
+.list {
+    margin: 15px 0;
+    flex-grow: 1;
+    min-height: 0;
+    overflow: auto;
+}
+
+.footer {
+    margin: 0 -15px -15px -15px;
+}
